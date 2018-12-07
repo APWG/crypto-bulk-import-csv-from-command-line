@@ -1,4 +1,4 @@
-#Bulk import CSV data into the eCX Virtual Currency Data Exchange Workgroup
+# Bulk import CSV data into the eCX Virtual Currency Data Exchange Workgroup
 
 A file of CSV data is read, saved into an array, and each element in the array converted to JSON to match the eCX API submission format.  The JSON data is POSTed to eCX and the logic catches the result code and any error messages.  Rejected submissions are saved into an exception file. 
 

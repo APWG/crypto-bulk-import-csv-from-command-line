@@ -27,7 +27,7 @@ Usage:
 - Note that with all the various ways dates might be represented in a spreadsheet that the ISO date value may not be supported by the epoch conversion logic, mm-dd-yyy hh:mm is the best ISO date format to use.  You may see POST failures in the exceptions.csv output file from failed ISO date conversions
 
 *Settings:*
-- Edit lines 2-4 of this script with the correct values to access the eCX API prior to running.
+- Edit line 4 of this script with the correct values to access the eCX API prior to running.
 - The $endpoint value is currently set to the Virtual Currency Data Exchange Workgroup
 
 *Output:* 

@@ -128,6 +128,7 @@ curl_setopt_array($curl, array(
 	CURLOPT_MAXREDIRS => 10,
 	CURLOPT_TIMEOUT => 30,
 	CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
+	CURLOPT_USERAGENT => 'cURL, Bulk CSV Import, Virtual Currency Workgroup',
 	CURLOPT_CUSTOMREQUEST => "POST",
 	CURLOPT_HTTPHEADER => array(
 		"Authorization: " . $api_token_key,

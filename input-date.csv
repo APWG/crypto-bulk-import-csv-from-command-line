@@ -1,0 +1,2 @@
+date,tag,currency,address,procedure,source
+mm/dd/yyyy,string,[BTC|ETH|XMR], string, [manual|crawl|algorithmic], string
